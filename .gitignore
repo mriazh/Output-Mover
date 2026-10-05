@@ -1,0 +1,25 @@
+# Local secrets — never commit.
+config/.env
+*.env
+*.env.*
+!config/.env.example
+
+# Generated artefacts and logs.
+output/
+logs/
+.downloads/
+
+# Documentation — not for public release.
+/docs/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
